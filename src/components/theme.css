@@ -1,0 +1,27 @@
+/* theme.css */
+body.light {
+    background-color: white;
+    color: #1e1e1e;
+  }
+  
+  body.dark {
+    background-color: #1e1e1e;
+    color: white;
+    #cities>#citiesdata{
+color: #ccc;
+    }
+  }
+  
+  /* Additional component-specific styles can be added here if needed */
+  #cities {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  body.dark #cities >Typography{
+    border: 1px solid #555;
+    color: white;
+  }
+  
